@@ -210,19 +210,14 @@
  *   );
  * @endcode
  */
-$databases = array(
-  'default' => array(
-    'default' => array(
-      'driver' => 'mysql',
-      'database' => 'databasename',
-      'username' => 'username',
-      'password' => 'password',
-      'host' => 'localhost',
-      'prefix' => '',
-    ),
-  ),
+$databases['default']['default'] = array(
+  'driver' => 'mysql',
+  'database' => 'databasename',
+  'username' => 'username',
+  'password' => 'password',
+  'host' => 'localhost',
+  'prefix' => '',
 );
-
 /**
  * Access control for update.php script.
  *

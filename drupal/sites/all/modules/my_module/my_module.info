@@ -1,0 +1,4 @@
+name = PHP for NonProgrammers
+description = A module built during DrupalCon Portland's PHP training.
+package = Training
+core = 7.x
